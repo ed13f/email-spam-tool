@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import './scss/global.scss';
+@import './scss/form.scss';
+@import './scss/highlighter.scss';
+@import './scss/header.scss';
+@import './scss/warning-list.scss';
+@import './scss/warning-item.scss';
+
+.app {
+  .app__header{
+    width:100%;
+  }
+  .app__row{
+  	display:flex;
+  	padding:0 15px;
+  }
+  .app__column{
+  	margin:0 15px;
+  	&.app__column--flex-1{
+  		flex:1;
+  	}
+  	&.app__column--flex-2{
+  		flex:2;
+      transition: width 500ms;
+      width:100%;
+  	}
+  }
+  .app__dashboard{
+    padding-top:20px;
+    max-height:calc(100% - 125px);
+    overflow:hidden;
+    position:relative;
+  }
+  .app__toggle-slider{
+    display:none;
+  }
+  &.safari{
+    textarea, input{
+      margin:-2px 0 0 0;
+    }
+    @media screen and (max-width: 900px) {
+      .form .form__highlighter-wrapper{
+        width: calc(100% - 5px);
+      }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .header{
+      &.app__row{
+        flex-direction:column;
+      }
+    }
+    .app__mobile-slider{
+      position: absolute;
+      background: #ffffff;
+      right:-260px;
+      top: 0;
+      height: 100%;
+      margin:0;
+      padding:0 15px;
+      background-image: linear-gradient(to bottom right, #ededed, #ededed, #FFFFFF, #ffffff, #ffffff, #ffffff);
+      transition: right 500ms;
+      width:230px;
+    }
+    .app__toggle-slider{
+      display: initial;
+      left: -70px;
+      position: absolute;
+      background-color: transparent;
+      // width: 150px;
+      height: 35px;
+      border: none;
+      z-index: 10;
+      padding: 0;
+      cursor: pointer;
+      text-align: left;
+      font-weight: 800;
+      &:after {
+        border-top: 35px solid #ededed;
+        // border-left: 10px solid transparent;
+        border-left: 30px solid transparent;
+        width: 0;
+        height: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -30px;
+      }
+    }
+    .app__toggle-options{
+      display: inline-block;
+      width: 81px;
+      text-align: left;
+      background-color: #ededed;
+      padding: 5px 0 0;
+      height: 30px;
+    }
+    .app__dashboard--active{
+      display:block;
+      .app__mobile-slider{
+        right: 0;
+      }  
+    }
+  }
+}

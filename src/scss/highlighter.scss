@@ -1,0 +1,42 @@
+.highlighter__header {
+  margin: 0 0 .5rem;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+.highlighter__input {
+  width: 100%;
+  border: 1px solid #78909c;
+  line-height: 1.4;
+  padding: .3em .5em;
+  border-radius: .3em;
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+.highlighter__highlight {
+  background-color: #ffd54f;
+}
+.highlighter__active {
+  background-color: #f48f42;
+}
+.highlighter__footer {
+  margin-bottom: 0;
+}
+.highlighter__row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.highlighter__first-column,
+.highlighter__second-column {
+  flex: 1 1 auto;
+}
+.highlighter__first-column {
+  margin-right: 0.5rem;
+}
+.highlighter__second-column {
+  margin-left: 0.5rem;
+}
+mark{
+  color:transparent;
+}

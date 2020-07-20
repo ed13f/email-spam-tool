@@ -1,0 +1,16 @@
+.header{
+	justify-content:space-between;
+    box-shadow: 0 0px 20px 0px gray;
+	.header__logo{
+		width:250px;
+		margin: 20px 0;
+	}
+	@media screen and (max-width: 900px) {
+		.header__logo{
+			margin:10px 0 -10px 0;
+		}
+		.header__title{
+			margin-top:0;
+		}
+	}
+}

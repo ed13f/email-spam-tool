@@ -1,0 +1,16 @@
+.warning-list{
+	height: calc(100% - 70px);
+    overflow: scroll;
+    max-height: calc(100vh - 280px);
+    .warning-list__list{
+    	margin:0;
+    }
+    .warning-list__empty-message{
+    	list-style: none;
+	    position: relative;
+	    left: -40px;
+    	.warning-list__list &{
+    		padding:0;
+    	}
+    }
+}

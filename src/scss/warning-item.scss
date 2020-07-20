@@ -1,0 +1,39 @@
+.warning-item{
+	.warning-item__synonyms-button{
+		border:none;
+		background:transparent;
+		font-size:1em;
+		text-decoration:none;
+		color:#000000;
+		cursor: pointer;
+		transform: rotate(0deg);
+		display: inline-block;
+		font-weight:800;
+	}
+	.warning-item__list{
+		max-height:0;
+		overflow:hidden;
+		transition: max-height 500ms;
+	}
+	.warning-item__title{
+		list-style: none;
+		margin-left: -40px;
+		font-size:0.75em;
+	}
+	.warning-item__item{
+		font-size:0.75em;
+	}
+	.warning-item__icon{
+		font-weight:800;
+	}
+	&.active{
+		.warning-item__list{
+			max-height:300px;
+		}
+		.warning-item__synonyms-button{
+			transform: rotate(180deg);
+
+		}
+		
+	}
+}
