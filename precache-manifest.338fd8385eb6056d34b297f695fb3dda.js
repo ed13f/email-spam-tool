@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7eda7aeb62f7e18c3ba7e14ed283db6",
+    "revision": "1e1528076ed7a991fafca3e492952cb5",
     "url": "/email-spam-tool/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/email-spam-tool/static/css/2.e418317b.chunk.css"
   },
   {
-    "revision": "a86e4497b8f69921ca03",
+    "revision": "cad957e37b7aabaf4c68",
     "url": "/email-spam-tool/static/css/main.7e8cb955.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/email-spam-tool/static/js/2.950f6e1e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a86e4497b8f69921ca03",
-    "url": "/email-spam-tool/static/js/main.953f23c6.chunk.js"
+    "revision": "cad957e37b7aabaf4c68",
+    "url": "/email-spam-tool/static/js/main.6a44486b.chunk.js"
   },
   {
     "revision": "6ff10a28cfbe1b1e9df5",
