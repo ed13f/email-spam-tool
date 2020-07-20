@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/email-spam-tool/precache-manifest.7d743d370a20dea2782d0ad729d2096b.js"
+  "/email-spam-tool/precache-manifest.c9f8f9af2b2a07a7eef47e2cb71a167d.js"
 );
 
 self.addEventListener('message', (event) => {
