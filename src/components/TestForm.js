@@ -72,7 +72,7 @@ class TestForm extends Component{
 										onChange={this.onChangeSubjectLine}
 										name="subjectLine"
 										autoComplete="off"
-										maxLength="60"
+										maxLength="35"
 										onScroll={this.handleSubjectScroll}
 										id="subject-input"
 									/>
@@ -134,7 +134,7 @@ class TestForm extends Component{
 										onChange={this.onChangeCta}
 										name="cta"
 										autoComplete="off"
-										maxLength="45"
+										maxLength="35"
 										onScroll={this.handleCtaScroll}
 										id="cta-input"
 									/>

@@ -11,6 +11,12 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+input,
+textarea{
+    -webkit-border-radius:0px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
 input{
 	background-color: transparent;
 }
@@ -55,4 +61,11 @@ button:focus {
 	h1,.h1{
 		font-size:1.5rem;
 	}
+	h2,.h2{
+		font-size:1.4rem;
+	}
+	p,.p, input, textarea, button, a, select, span, div, ul, li, mark{
+	font-size:1.3rem;
+
+}
 }

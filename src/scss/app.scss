@@ -35,21 +35,42 @@
   .app__toggle-slider{
     display:none;
   }
+  // &.safari{
+  //   textarea, input{
+  //     margin:-2px 0 0 0;
+  //   }
+  //   @media screen and (max-width: 900px) {
+  //     .form .form__highlighter-wrapper{
+  //       width: calc(100% - 5px);
+  //     }
+  //   }
+  // }
   &.safari{
     textarea, input{
       margin:-2px 0 0 0;
     }
-    @media screen and (max-width: 900px) {
-      .form .form__highlighter-wrapper{
-        width: calc(100% - 5px);
+    .form{
+      .form__highlighter-wrapper{
+        overflow: initial;
       }
-    }
+    } 
+    // @media screen and (max-width: 900px) {
+    //   .form .form__highlighter-wrapper{
+    //     width: calc(100% - 5px);
+    //   }
+    // }
   }
   @media screen and (max-width: 900px) {
     .header{
       &.app__row{
         flex-direction:column;
       }
+    }
+    .app__row{
+      padding:0;
+    }
+    .app__column{
+      margin:0 5px;
     }
     .app__mobile-slider{
       position: absolute;
