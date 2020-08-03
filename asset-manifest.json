@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/email-spam-tool/static/css/main.7e8cb955.chunk.css",
-    "main.js": "/email-spam-tool/static/js/main.ca8ee6e0.chunk.js",
-    "main.js.map": "/email-spam-tool/static/js/main.ca8ee6e0.chunk.js.map",
+    "main.css": "/email-spam-tool/static/css/main.8bb82a73.chunk.css",
+    "main.js": "/email-spam-tool/static/js/main.9349a937.chunk.js",
+    "main.js.map": "/email-spam-tool/static/js/main.9349a937.chunk.js.map",
     "runtime-main.js": "/email-spam-tool/static/js/runtime-main.b9fd5618.js",
     "runtime-main.js.map": "/email-spam-tool/static/js/runtime-main.b9fd5618.js.map",
     "static/css/2.e418317b.chunk.css": "/email-spam-tool/static/css/2.e418317b.chunk.css",
     "static/js/2.950f6e1e.chunk.js": "/email-spam-tool/static/js/2.950f6e1e.chunk.js",
     "static/js/2.950f6e1e.chunk.js.map": "/email-spam-tool/static/js/2.950f6e1e.chunk.js.map",
     "index.html": "/email-spam-tool/index.html",
-    "precache-manifest.c9f8f9af2b2a07a7eef47e2cb71a167d.js": "/email-spam-tool/precache-manifest.c9f8f9af2b2a07a7eef47e2cb71a167d.js",
+    "precache-manifest.d0cfa68f1a32a9a8bfc0c1864475c40e.js": "/email-spam-tool/precache-manifest.d0cfa68f1a32a9a8bfc0c1864475c40e.js",
     "service-worker.js": "/email-spam-tool/service-worker.js",
     "static/css/2.e418317b.chunk.css.map": "/email-spam-tool/static/css/2.e418317b.chunk.css.map",
-    "static/css/main.7e8cb955.chunk.css.map": "/email-spam-tool/static/css/main.7e8cb955.chunk.css.map",
+    "static/css/main.8bb82a73.chunk.css.map": "/email-spam-tool/static/css/main.8bb82a73.chunk.css.map",
     "static/js/2.950f6e1e.chunk.js.LICENSE.txt": "/email-spam-tool/static/js/2.950f6e1e.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/email-spam-tool/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b9fd5618.js",
     "static/css/2.e418317b.chunk.css",
     "static/js/2.950f6e1e.chunk.js",
-    "static/css/main.7e8cb955.chunk.css",
-    "static/js/main.ca8ee6e0.chunk.js"
+    "static/css/main.8bb82a73.chunk.css",
+    "static/js/main.9349a937.chunk.js"
   ]
 }
